@@ -52,7 +52,7 @@ const { canGoBack, goBack } = useBackButton()
 
 ---
 
-## ⚙️ What It Does
+## What It Does
 
 - Tracks your app's route transitions
 - Detects if the user navigated with `push`, `replace`, or browser back
