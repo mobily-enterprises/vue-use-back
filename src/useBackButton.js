@@ -25,14 +25,26 @@ export function useBackButton() {
 
   const canGoBack = computed(() => stack.value.length > 0)
 
+  const canGoBackBy = (n) => stack.value.length >= n
+
   function goBack() {
     stack.value.pop()
     router.back()
   }
 
+  function goBackBy(n) {
+    const steps = Math.min(n, stack.value.length)
+    for (let i = 0; i < steps; i++) {
+      stack.value.pop()
+    }
+    router.go(-steps)
+  }
+
   return {
     trackNavigation,
     canGoBack,
-    goBack
+    goBack,
+    canGoBackBy,
+    goBackBy
   }
 }
