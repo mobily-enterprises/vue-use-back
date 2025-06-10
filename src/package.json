@@ -1,0 +1,17 @@
+{
+  "name": "use-back-button",
+  "version": "1.0.0",
+  "description": "A Vue 3 composable to track back navigation in SPAs using Vue Router",
+  "main": "src/useBackButton.js",
+  "type": "module",
+  "keywords": ["vue", "composable", "back button", "vue-router", "SPA"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobily-enterprises/use-back-button"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0"
+  },
+  "license": "MIT"
+}
