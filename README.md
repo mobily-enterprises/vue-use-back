@@ -97,7 +97,7 @@ These methods ensure your internal stack and browser history stay in sync.
 
 ## License
 
-MIT – use it, break it, fix it, ship it. Just don’t ship it broken.
+GPL V.3
 
 ---
 
