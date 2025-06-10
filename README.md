@@ -55,13 +55,13 @@ const { canGoBack, goBack } = useBackButton()
 ### 3. Go back multiple steps
 You can go back more than one route by using goBackBy(n):
 
-```vue
+```javascript
 goBackBy(2) // Goes back two routes in history
 ```
 
 Before calling it, you can check if it's safe:
 
-```vue
+```javascript
 if (canGoBackBy(2)) {
   goBackBy(2)
 }
